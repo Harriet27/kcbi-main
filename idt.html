@@ -184,7 +184,7 @@
                 </span>
               </p>
               <button
-                class="btn btn-primary"
+                class="btn btn-primary readmorebtn"
                 id="read_more_btn_${val.id}"
                 onClick="handleReadMore(${val.id})"
               >
@@ -213,7 +213,12 @@
     .card-text {
       font-size: 0.85rem;
     }
+    .readmorebtn {
+      position: absolute;
+      bottom: 1rem;
+    }
     #idt_guest_card {
+      min-height: 57rem;
       width: 18rem;
       margin-right: 0.275rem;
     }
@@ -226,9 +231,13 @@
         justify-content: space-between;
         flex-wrap: wrap;
       }
+      .readmorebtn {
+        position: initial;
+      }
       #idt_guest_card {
         width: 100%;
         margin-right: 0;
+        min-height: 57rem;
       }
     }
     @media only screen and (max-width: 1000px) {
@@ -237,9 +246,13 @@
         justify-content: space-between;
         flex-wrap: wrap;
       }
+      .readmorebtn {
+        position: initial;
+      }
       #idt_guest_card {
         width: 100%;
         margin-right: 0;
+        min-height: 57rem;
       }
     }
   </style>
