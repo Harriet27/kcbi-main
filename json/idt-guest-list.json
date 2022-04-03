@@ -1,67 +1,49 @@
 {
   "guests" : [
     {
+      "id": 1,
       "image": "assets/img/idt/hengsure.jpg",
       "name": "Ven. Professor Bhikshu Heng Sure, B.A., M.A., Ph.D., Ph.D.",
-      "education": "Professor Dharma Realm Buddhist University",
+      "title": "Professor Dharma Realm Buddhist University",
       "organization": "Dharma Realm Buddhist Association",
-      "description": "Heng Sure (恆實法師, Pinyin: Héng Shí, birth name Christopher R. Clowery; born October 31, 1949) is an American Chan Buddhist monk. He is a senior disciple of Hsuan Hua, and is currently the director of the Berkeley Buddhist Monastery, a branch monastery of the Dharma Realm Buddhist Association. He is probably best known for a pilgrimage he made for two years and six months from 1977–1979. Called a three steps, one bow pilgrimage, Heng Sure and his companion Heng Chau (Martin Verhoeven), bowed from South Pasadena to Ukiah, California, a distance of 800 miles, seeking world peace"
+      "biography": "Heng Sure (恆實法師, Pinyin: Héng Shí, birth name Christopher R. Clowery; born October 31, 1949) is an American Chan Buddhist monk. He is a senior disciple of Hsuan Hua, and is currently the director of the Berkeley Buddhist Monastery, a branch monastery of the Dharma Realm Buddhist Association.",
+      "more_biography": "He is probably best known for a pilgrimage he made for two years and six months from 1977–1979. Called a three steps, one bow pilgrimage, Heng Sure and his companion Heng Chau (Martin Verhoeven), bowed from South Pasadena to Ukiah, California, a distance of 800 miles, seeking world peace."
     },
     {
-      "image": "assets/img/idt/hengsure.jpg",
-      "name": "Ven. Professor Bhikshu Heng Sure, B.A., M.A., Ph.D., Ph.D.",
-      "education": "Professor Dharma Realm Buddhist University",
-      "organization": "Dharma Realm Buddhist Association",
-      "description": "Heng Sure (恆實法師, Pinyin: Héng Shí, birth name Christopher R. Clowery; born October 31, 1949) is an American Chan Buddhist monk. He is a senior disciple of Hsuan Hua, and is currently the director of the Berkeley Buddhist Monastery, a branch monastery of the Dharma Realm Buddhist Association. He is probably best known for a pilgrimage he made for two years and six months from 1977–1979. Called a three steps, one bow pilgrimage, Heng Sure and his companion Heng Chau (Martin Verhoeven), bowed from South Pasadena to Ukiah, California, a distance of 800 miles, seeking world peace"
+      "id": 2,
+      "image": "assets/img/idt/zurmang.jpg",
+      "name": "H.E. 12th Zurmang Gharwang Rinpoche",
+      "title": "12th Zurmang Gharwang",
+      "organization": "Zurmang Kagyu Buddhist Foundation",
+      "biography": "H.E. 12th Zurmang Gharwang Rinpoche was a top scholar at the Nalanda Buddhist Institute between 1982 and 1991. Since 1987, he has taught extensively in dharma centres all over the world in Europe, America and Asia.",
+      "more_biography": "The first Kagyudpa Dharma Centre in Indonesia was founded by Gharwang Rinpoche in Jakarta in 1996. He is presently studying for a Master degree in Buddhist Studies in Boston, USA. After completion of his formal Tibetan Buddhist studies and English language at 26, Rinpoche left Rumtek to begin the task of establishing his new seat in Sikkim as well as re-establishing its original seat in Tibet and also the setting up of several Zurmang Centres in Singapore, Hong Kong, Jakarta, Medan, Surabaya, Pakan Baru, Taipei and Kuala Lumpur. Rinpoche's great humility and unpretentiousness have endeared and awed many who have been fortunate to meet him. In 1990, the Governor of Los Angeles (California, USA) honoured him with the keys of the city, making him an honorary citizen of the country, with the aim of promoting a better understanding and practice of the Buddha Dharma. With an understanding of Western culture, and his fluency in English, Rinpoche is able to expound the Dharma clearly and directly, showing how an ancient philosophy is still surprisingly relevant in this modern world, perhaps even more so."
     },
     {
-      "image": "assets/img/idt/hengsure.jpg",
-      "name": "Ven. Professor Bhikshu Heng Sure, B.A., M.A., Ph.D., Ph.D.",
-      "education": "Professor Dharma Realm Buddhist University",
-      "organization": "Dharma Realm Buddhist Association",
-      "description": "Heng Sure (恆實法師, Pinyin: Héng Shí, birth name Christopher R. Clowery; born October 31, 1949) is an American Chan Buddhist monk. He is a senior disciple of Hsuan Hua, and is currently the director of the Berkeley Buddhist Monastery, a branch monastery of the Dharma Realm Buddhist Association. He is probably best known for a pilgrimage he made for two years and six months from 1977–1979. Called a three steps, one bow pilgrimage, Heng Sure and his companion Heng Chau (Martin Verhoeven), bowed from South Pasadena to Ukiah, California, a distance of 800 miles, seeking world peace"
+      "id": 3,
+      "image": "assets/img/idt/inthawai.jpg",
+      "name": "Ven. Bhikkhu Luangpor Inthawai Santussako Mahathera",
+      "title": "Co-Founder of Wat Pa Na Kham Noi",
+      "organization": "Wat Pa Na Kham Noi",
+      "biography": "",
+      "more_biography": ""
     },
     {
-      "image": "assets/img/idt/hengsure.jpg",
-      "name": "Ven. Professor Bhikshu Heng Sure, B.A., M.A., Ph.D., Ph.D.",
-      "education": "Professor Dharma Realm Buddhist University",
-      "organization": "Dharma Realm Buddhist Association",
-      "description": "Heng Sure (恆實法師, Pinyin: Héng Shí, birth name Christopher R. Clowery; born October 31, 1949) is an American Chan Buddhist monk. He is a senior disciple of Hsuan Hua, and is currently the director of the Berkeley Buddhist Monastery, a branch monastery of the Dharma Realm Buddhist Association. He is probably best known for a pilgrimage he made for two years and six months from 1977–1979. Called a three steps, one bow pilgrimage, Heng Sure and his companion Heng Chau (Martin Verhoeven), bowed from South Pasadena to Ukiah, California, a distance of 800 miles, seeking world peace"
+      "id": 4,
+      "image": "assets/img/idt/jayasaro.jpg",
+      "name": "Ven. Ajahn Jayasaro",
+      "title": "The Chief Spiritual Advisor of the Foundation",
+      "organization": "Panyaprateep Foundation",
+      "biography": "Ven. Ajahn Jayasaro (Shaun Michael Chiverton) was born on the Isle of Wight, England in 1958. In 1978 he became a student of Ajahn Cha, one of Thailand’s most renowned Buddhist monks and meditation masters, at Wat Pa Pong in Northeast Thailand.",
+      "more_biography": "He took full ordination with Ajahn Chah as his preceptor in 1980. After his initial five year monastic training Ajahn Jayasaro spent time in solitary retreat before taking on teaching and administrative duties. Over the next several years he alternated between periods of retreat and service to his monastic lineage, during which period he was entrusted with writing the official biography of his teacher, Ajahn Chah. Ajahn Jayasaro served as abbot of Wat Pa Nanachat, the international monastery of Ajahn Chah’s lineage for five years (1997-2002.)  Since then he has been living at Janamara Hermitage at the foot of Khao Yai Mountains, in Nakorn Ratchasima, Thailand. He now combines his own spiritual practice with regular offerings of guidance to lay and monastic communities in Thailand and overseas."
     },
     {
-      "image": "assets/img/idt/hengsure.jpg",
-      "name": "Ven. Professor Bhikshu Heng Sure, B.A., M.A., Ph.D., Ph.D.",
-      "education": "Professor Dharma Realm Buddhist University",
-      "organization": "Dharma Realm Buddhist Association",
-      "description": "Heng Sure (恆實法師, Pinyin: Héng Shí, birth name Christopher R. Clowery; born October 31, 1949) is an American Chan Buddhist monk. He is a senior disciple of Hsuan Hua, and is currently the director of the Berkeley Buddhist Monastery, a branch monastery of the Dharma Realm Buddhist Association. He is probably best known for a pilgrimage he made for two years and six months from 1977–1979. Called a three steps, one bow pilgrimage, Heng Sure and his companion Heng Chau (Martin Verhoeven), bowed from South Pasadena to Ukiah, California, a distance of 800 miles, seeking world peace"
-    },
-    {
-      "image": "assets/img/idt/hengsure.jpg",
-      "name": "Ven. Professor Bhikshu Heng Sure, B.A., M.A., Ph.D., Ph.D.",
-      "education": "Professor Dharma Realm Buddhist University",
-      "organization": "Dharma Realm Buddhist Association",
-      "description": "Heng Sure (恆實法師, Pinyin: Héng Shí, birth name Christopher R. Clowery; born October 31, 1949) is an American Chan Buddhist monk. He is a senior disciple of Hsuan Hua, and is currently the director of the Berkeley Buddhist Monastery, a branch monastery of the Dharma Realm Buddhist Association. He is probably best known for a pilgrimage he made for two years and six months from 1977–1979. Called a three steps, one bow pilgrimage, Heng Sure and his companion Heng Chau (Martin Verhoeven), bowed from South Pasadena to Ukiah, California, a distance of 800 miles, seeking world peace"
-    },
-    {
-      "image": "assets/img/idt/hengsure.jpg",
-      "name": "Ven. Professor Bhikshu Heng Sure, B.A., M.A., Ph.D., Ph.D.",
-      "education": "Professor Dharma Realm Buddhist University",
-      "organization": "Dharma Realm Buddhist Association",
-      "description": "Heng Sure (恆實法師, Pinyin: Héng Shí, birth name Christopher R. Clowery; born October 31, 1949) is an American Chan Buddhist monk. He is a senior disciple of Hsuan Hua, and is currently the director of the Berkeley Buddhist Monastery, a branch monastery of the Dharma Realm Buddhist Association. He is probably best known for a pilgrimage he made for two years and six months from 1977–1979. Called a three steps, one bow pilgrimage, Heng Sure and his companion Heng Chau (Martin Verhoeven), bowed from South Pasadena to Ukiah, California, a distance of 800 miles, seeking world peace"
-    },
-    {
-      "image": "assets/img/idt/hengsure.jpg",
-      "name": "Ven. Professor Bhikshu Heng Sure, B.A., M.A., Ph.D., Ph.D.",
-      "education": "Professor Dharma Realm Buddhist University",
-      "organization": "Dharma Realm Buddhist Association",
-      "description": "Heng Sure (恆實法師, Pinyin: Héng Shí, birth name Christopher R. Clowery; born October 31, 1949) is an American Chan Buddhist monk. He is a senior disciple of Hsuan Hua, and is currently the director of the Berkeley Buddhist Monastery, a branch monastery of the Dharma Realm Buddhist Association. He is probably best known for a pilgrimage he made for two years and six months from 1977–1979. Called a three steps, one bow pilgrimage, Heng Sure and his companion Heng Chau (Martin Verhoeven), bowed from South Pasadena to Ukiah, California, a distance of 800 miles, seeking world peace"
-    },
-    {
-      "image": "assets/img/idt/hengsure.jpg",
-      "name": "Ven. Professor Bhikshu Heng Sure, B.A., M.A., Ph.D., Ph.D.",
-      "education": "Professor Dharma Realm Buddhist University",
-      "organization": "Dharma Realm Buddhist Association",
-      "description": "Heng Sure (恆實法師, Pinyin: Héng Shí, birth name Christopher R. Clowery; born October 31, 1949) is an American Chan Buddhist monk. He is a senior disciple of Hsuan Hua, and is currently the director of the Berkeley Buddhist Monastery, a branch monastery of the Dharma Realm Buddhist Association. He is probably best known for a pilgrimage he made for two years and six months from 1977–1979. Called a three steps, one bow pilgrimage, Heng Sure and his companion Heng Chau (Martin Verhoeven), bowed from South Pasadena to Ukiah, California, a distance of 800 miles, seeking world peace"
+      "id": 5,
+      "image": "assets/img/idt/jayasaro.jpg",
+      "name": "Ven. Tan Ajahn Cagino",
+      "title": "Founder of Dhammagiri Foundation",
+      "organization": "Dhammagiri Foundation",
+      "biography": "Ajahn Cagino was born in Malaysia in 1967. After graduating from the Malaysian Institute of Arts with a Diploma of Arts, he became a professional photographer out of his keen interest in photography. Over the course of his six-year career, he received as many as 40 photography awards.",
+      "more_biography": "In 1990 he won the inaugural Asian Photography competition, reaching the pinnacle of his career. At the age of 29, he went to forest monasteries in Thailand and New Zealand to seek the Dhamma as a layman. After 18 months of being a novice at Ang Hock See Temple in Penang, he left for Thailand and went forth, with Ajahn Ganha as his preceptor. Five years later, he was reordained at the international forest monastery Wat Pah Nanachat, where non-Thai monks under Ajahn Chah are trained. Over the years, he has wandered at least 4000km in Thailand. His search for a place for solitary meditation practice led him to settle down in a cave in Mae Hong Son in northern Thailand away from the hustle and bustle of crowds. During his years of dwelling in the cave, he found the orphans of the local minorities (including native tribes, Burmese refugees and former Kuomintang members, etc.) to be kind and pure at heart. With proper guidance and education, the children could contribute to the society. Hence, he founded the Dhammagiri Foundation as a Buddhist orphanage to provide a warm home for hilltribe orphans. Conditions allowed Ajahn Cagino picked up his camera again, this time not for personal fame or out of interest in photography, but to document the lives of tudong monks practising in forests. As forest lands in Thailand are gradually opened up for development, less suitable places are available for the practice of tudong monks. These precious photos carry the spirit of tudong practice, serving as educational material, exemplars and historical records. They leave behind a spiritual legacy of the forest Sangha and Buddhism. After Dhammagiri Foundation was set up, Ajahn Cagino donated the photographs to the foundation. The foundation organized a series of photography exhibitions in Buddhist and art circles in Malaysia, Singapore, Indonesia and Thailand. The exhibitions were overwhelmingly received by the audiences and created opportunities for people to support the Dhammagiri Foundation and understand the life and practice of the forest Sangha. To date, the photographs have been exhibited more than 20 times. Since 2011, Ajahn Cagino has been spreading the Dhamma from Thailand to Malaysia, Singapore, Indonesia and Taiwan, etc., through giving Dhamma talks and conducting meditation retreats. He also brings international Buddhists groups to Thailand so that they understand the conditions of the impoverished hilltribes in Mae Hong Son and offer material support. Ajahn Cagino is currently the abbot of the Sangharama, in Mae Hong Son, Thailand and spiritual advisor of Nibbana Dhamma Rakkha in Singapore."
     }
   ]
 }
