@@ -127,7 +127,6 @@
 
     // function to handle read more at button
     function handleReadMore(id) {
-      console.log("masuk ok id:", id);
       var dots = document.getElementById(`dots_${id}`);
       var moreText = document.getElementById(`more_${id}`);
       var btnText = document.getElementById(`read_more_btn_${id}`);
@@ -213,12 +212,12 @@
     .card-text {
       font-size: 0.85rem;
     }
-    .readmorebtn {
+    /* .readmorebtn {
       position: absolute;
       bottom: 1rem;
-    }
+    } */
     #idt_guest_card {
-      min-height: 57rem;
+      /* min-height: 57rem; */
       width: 18rem;
       margin-right: 0.275rem;
     }
@@ -231,13 +230,13 @@
         justify-content: space-between;
         flex-wrap: wrap;
       }
-      .readmorebtn {
+      /* .readmorebtn {
         position: initial;
-      }
+      } */
       #idt_guest_card {
         width: 100%;
         margin-right: 0;
-        min-height: 57rem;
+        /* min-height: 0; */
       }
     }
     @media only screen and (max-width: 1000px) {
@@ -246,13 +245,13 @@
         justify-content: space-between;
         flex-wrap: wrap;
       }
-      .readmorebtn {
+      /* .readmorebtn {
         position: initial;
-      }
+      } */
       #idt_guest_card {
         width: 100%;
         margin-right: 0;
-        min-height: 57rem;
+        /* min-height: 0; */
       }
     }
   </style>
