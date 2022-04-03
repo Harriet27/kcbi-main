@@ -1,0 +1,75 @@
+[
+    {
+        "year": "2021",
+        "month": [
+            {
+                "name": "September",
+                "data": [
+                    {
+                        "cover": "data/Buletin-Cover-Lowres/sept 21.jpg",
+                        "file": "data/2021 - September - Buletin KCBI.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Oktober",
+                "data": [
+                    {
+                        "cover": "data/Buletin-Cover-Lowres/okt 21.jpg",
+                        "file": "data/Buletin KCBI Oktober 2021 ok.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "November",
+                "data": [ 
+                    {
+                        "cover": "data/Buletin-Cover-Lowres/nov 21.jpg",
+                        "file": "data/2021 - November - Buletin KCBI.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Desember",
+                "data": [
+                    {
+                        "cover": "data/Buletin-Cover-Lowres/des 21.jpg",
+                        "file": "data/2021 - Desember - Buletin KCBI (1).pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2022",
+        "month": [
+            {
+                "name": "Januari",
+                "data": [
+                    {
+                        "cover": "data/Buletin-Cover-Lowres/jan 22.jpg",
+                        "file": "data/2022 - Januari - Buletin KCBI.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Februari",
+                "data": [
+                    {
+                        "cover": "data/Buletin-Cover-Lowres/feb 22.jpg",
+                        "file": "data/Document from Erika Tanuwijaya.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Maret",
+                "data": [
+                    {
+                        "cover": "data/Buletin-Cover-Lowres/mar 22.jpg",
+                        "file": "data/2022 - Maret - Buletin KCBI.pdf"
+                    }
+                ]
+            }
+        ]
+    }
+]
