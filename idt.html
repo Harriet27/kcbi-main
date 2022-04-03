@@ -124,6 +124,23 @@
 
   <script>
 
+    // function to handle read more at button
+    function handleReadMore(id) {
+      console.log("masuk ok id:", id);
+      var dots = document.getElementById(`dots_${id}`);
+      var moreText = document.getElementById(`more_${id}`);
+      var btnText = document.getElementById(`read_more_btn_${id}`);
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+
     // get main container
     const mainContainer = document.getElementById("idt_guest");
 
@@ -139,25 +156,7 @@
     .then(data => {
       const guestsList = data.guests;
       guestsList.map((val, idx) => {
-
-        // Function onclick read more
-        function handleReadMore() {
-          var dots = document.getElementById(`dots_${val.id}`);
-          var moreText = document.getElementById(`more_${val.id}`);
-          var btnText = document.getElementById(`read_more_btn_${val.id}`);
-          if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            btnText.innerHTML = "Read more"; 
-            moreText.style.display = "none";
-          } else {
-            dots.style.display = "none";
-            btnText.innerHTML = "Read less"; 
-            moreText.style.display = "inline";
-          }
-        }
-
-        // card element
-        var card = `
+        const guest_card = `
           <div class="card" id="idt_guest_card" style="margin-bottom: 2.5rem">
             <img class="card-img-top" src="${val.image}" alt="Card image cap">
             <div class="card-body">
@@ -183,16 +182,14 @@
               <button
                 class="btn btn-primary"
                 id="read_more_btn_${val.id}"
-                onClick="() => handleReadMore(${val})"
+                onClick="handleReadMore(${val.id})"
               >
                 Read More
               </button>
             </div>
           </div>
         `;
-
-        // append card element to main container element
-        mainContainer.innerHTML += card;
+        mainContainer.innerHTML += guest_card;
       })
     })
 
