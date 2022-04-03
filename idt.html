@@ -160,16 +160,19 @@
           <div class="card" id="idt_guest_card" style="margin-bottom: 2.5rem">
             <img class="card-img-top" src="${val.image}" alt="Card image cap">
             <div class="card-body">
+              <h5 class="card-event" style="margin-bottom: 1rem">
+                <b>Event Date: ${val.date}</b>
+              </h5>
               <h5 class="card-title" style="margin-bottom: 1rem">
-                <b>Name</b>: <br/>
+                <b>Name:</b> <br/>
                 ${val.name}
               </h5>
               <h5 class="card-subtitle" style="margin-bottom: 1rem">
-                <b>Title</b>: <br/>
+                <b>Title:</b> <br/>
                 ${val.title}
               </h5>
               <h5 class="card-subtitle" style="margin-bottom: 1rem">
-                <b>Organization</b>: <br/>
+                <b>Organization:</b> <br/>
                 ${val.organization}
               </h5>
               <p class="card-text">
@@ -196,8 +199,11 @@
   </script>
 
   <style>
-    .card-subtitle {
+    .card-event {
       font-size: 1rem;
+    }
+    .card-subtitle {
+      font-size: 1.125rem;
     }
     .card-text {
       font-size: 0.85rem;
