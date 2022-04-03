@@ -94,8 +94,9 @@
     <div
       id="idt_guest"
       class="container data py-3"
-      style="display: flex; justify-content: space-between; flex-wrap: wrap;"
-    ></div>
+    >
+    <!-- Guest Card rendered here -->
+    </div>
   </main>
   <!-- ./Render IDT Guest List -->
 
@@ -199,6 +200,10 @@
   </script>
 
   <style>
+    #idt_guest {
+      display: flex;
+      justify-content: space-between;
+    }
     .card-event {
       font-size: 1rem;
     }
@@ -212,6 +217,21 @@
       width: 18rem;
     }
     @media only screen and (max-width: 600px) {
+      #idt_guest {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      #idt_guest_card {
+        width: 100%;
+      }
+    }
+    @media only screen and (max-width: 1000px) {
+      #idt_guest {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
       #idt_guest_card {
         width: 100%;
       }
