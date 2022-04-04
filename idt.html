@@ -206,13 +206,19 @@
                 </span>
               </p>
             </div>
-            <button
-              class="btn btn-primary readmorebtn"
-              id="read_more_btn_${val.id}"
-              onClick="handleReadMore(${val.id})"
-            >
-              Read More
-            </button>
+            ${
+              val.biography !== ""
+              ? (`
+                <button
+                  class="btn btn-primary readmorebtn"
+                  id="read_more_btn_${val.id}"
+                  onClick="handleReadMore(${val.id})"
+                >
+                  Read More
+                </button>
+              `)
+              : ""
+            }
           </div>
         `;
         mainContainer.innerHTML += guest_card;
