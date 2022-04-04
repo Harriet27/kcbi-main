@@ -91,12 +91,17 @@
 
   <!-- Render IDT Guest List -->
   <main id="main">
+    <div class="container">
+      <img
+        src="assets/img/idt/idt-poster.jpeg"
+        alt="International Dhamma Teaching Poster"
+        class="idt-poster"
+      >
+    </div>
     <div
       id="idt_guest"
       class="container data py-3"
-    >
-    <!-- Guest Card rendered here -->
-    </div>
+    ></div>
   </main>
   <!-- ./Render IDT Guest List -->
 
@@ -132,18 +137,19 @@
       var btnText = document.getElementById(`read_more_btn_${id}`);
       if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
+        btnText.innerHTML = "Read more";
         moreText.style.display = "none";
       } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
+        btnText.innerHTML = "Read less";
         moreText.style.display = "inline";
       }
-    }
+    };
 
     // get main container
     const mainContainer = document.getElementById("idt_guest");
-
+    
+    // render guest list to main container
     fetch("./json/idt-guest-list.json", {
       method: "GET",
       headers: {
@@ -157,28 +163,28 @@
       const guestsList = data.guests;
       guestsList.map((val, idx) => {
         const guest_card = `
-          <div class="card" id="idt_guest_card" style="margin-bottom: 2.5rem">
+          <div class="card" id="idt_guest_card" style="margin-bottom: 2.5rem;">
             <img class="card-img-top" src="${val.image}" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-event" style="margin-bottom: 1rem">
+              <h5 class="card-event" style="margin-bottom: 1rem;">
                 <b>Event Date: ${val.date}</b>
               </h5>
-              <h5 class="card-title" style="margin-bottom: 1rem">
+              <h5 class="card-title" style="margin-bottom: 1rem;">
                 <b>Name:</b> <br/>
                 ${val.name}
               </h5>
-              <h5 class="card-subtitle" style="margin-bottom: 1rem">
+              <h5 class="card-subtitle" style="margin-bottom: 1rem;">
                 <b>Title:</b> <br/>
                 ${val.title}
               </h5>
-              <h5 class="card-subtitle" style="margin-bottom: 1rem">
+              <h5 class="card-subtitle" style="margin-bottom: 1rem;">
                 <b>Organization:</b> <br/>
                 ${val.organization}
               </h5>
               <p class="card-text">
                 ${val.biography}
                 <span id="dots_${val.id}"></span>
-                <span id="more_${val.id}" style="display: none">
+                <span id="more_${val.id}" style="display: none;">
                   ${val.more_biography}
                 </span>
               </p>
@@ -204,7 +210,12 @@
       justify-content: space-between;
     }
     .card-event {
+      text-align: center;
+      border-radius: 2.5px;
+      padding: 0.25rem;
       font-size: 1rem;
+      color: #fff;
+      background-color: #ffc107;
     }
     .card-subtitle {
       font-size: 1.125rem;
@@ -223,6 +234,11 @@
     #idt_guest_card:last-child {
       margin-right: 0;
     }
+    .idt-poster {
+      width: 100%;
+      margin: 2.5rem 0 1.5rem 0;
+      border-radius: 0.25rem;
+    }
     @media only screen and (max-width: 600px) {
       #idt_guest {
         display: flex;
@@ -232,6 +248,9 @@
       #idt_guest_card {
         width: 100%;
         margin-right: 0;
+      }
+      .idt-poster {
+        margin: 1.5rem 0 0.5rem 0;
       }
     }
     @media only screen and (max-width: 1000px) {
@@ -243,6 +262,9 @@
       #idt_guest_card {
         width: 100%;
         margin-right: 0;
+      }
+      .idt-poster {
+        margin: 1.5rem 0 0.5rem 0;
       }
     }
   </style>
