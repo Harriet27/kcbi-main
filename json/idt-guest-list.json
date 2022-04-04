@@ -3,6 +3,7 @@
     {
       "id": 1,
       "date": "10 April 2022",
+      "time": "14:00 WIB",
       "image": "assets/img/idt/hengsure.jpg",
       "name": "Ven. Professor Bhikshu Heng Sure, B.A., M.A., Ph.D., Ph.D.",
       "title": "Professor Dharma Realm Buddhist University",
@@ -13,6 +14,7 @@
     {
       "id": 2,
       "date": "17 April 2022",
+      "time": "18:30 WIB",
       "image": "assets/img/idt/zurmang2.jpg",
       "name": "H.E. 12th Zurmang Gharwang Rinpoche",
       "title": "12th Zurmang Gharwang",
@@ -23,6 +25,7 @@
     {
       "id": 3,
       "date": "24 April 2022",
+      "time": "18:30 WIB",
       "image": "assets/img/idt/inthawai.jpg",
       "name": "Ven. Bhikkhu Luangpor Inthawai Santussako Mahathera",
       "title": "Co-Founder of Wat Pa Na Kham Noi",
@@ -33,6 +36,7 @@
     {
       "id": 4,
       "date": "1 Mei 2022",
+      "time": "18:30 WIB",
       "image": "assets/img/idt/jayasaro.jpg",
       "name": "Ven. Ajahn Jayasaro",
       "title": "The Chief Spiritual Advisor of the Foundation",
@@ -43,6 +47,7 @@
     {
       "id": 5,
       "date": "8 Mei 2022",
+      "time": "19:30 WIB",
       "image": "assets/img/idt/cagino.png",
       "name": "Ven. Tan Ajahn Cagino",
       "title": "Founder of Dhammagiri Foundation",
